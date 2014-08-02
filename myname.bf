@@ -1,8 +1,10 @@
-goto char h for lower case
-program counter in #0
+Prints out my name in brainfuck.
+
+helpful counter in #0
 lowercase buffer 97 to 109 in #1 
 uppercase 80 'P' in #2
-
+buffer #3 is for spaces
+buffer #4 and #5 is for copy at end
 
 +++++++++           10 in #0 to run 10 times
 [                   begin multiply by 10 loop 
@@ -56,7 +58,7 @@ i have d and P in 1 and 2
 >>>                 #4 lowercase2 114 'r'
 ---.                111 'o'
 
-                    Have some fun trying to copy #1
+                    Have some fun trying to copy #3
 
                     Copy space buffer to lowercase2 
 [-]                 Clear lowercase2 #4
